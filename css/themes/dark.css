@@ -1,3 +1,16 @@
+/* Hide theme toggle button */
+ytd-toggle-theme-compact-link-renderer {
+  pointer-events: none;
+  user-select: none;
+  font-size: 1%; }
+  ytd-toggle-theme-compact-link-renderer #secondary-icon {
+    display: none; }
+  ytd-toggle-theme-compact-link-renderer #label {
+    color: transparent; }
+  ytd-toggle-theme-compact-link-renderer #label::before {
+    content: "Use YouTube Refined to change theme";
+    color: var(--yt-compact-link-color, var(--yt-primary-color)); }
+
 .caption.ytd-account-settings,
 paper-item.ytd-account-settings,
 #title.ytd-metadata-row-renderer,

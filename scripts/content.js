@@ -74,7 +74,7 @@ const groups = Object.freeze([
     //special video suggestions that sometimes appear at the top of a channel home page.  reffered to as newspaper-renderers for some reason https://i.imgur.com/w4opVFo.png
     //larger video suggestion that appears next to newspaper suggestions https://i.imgur.com/w4opVFo.png
     //large vertically listed video suggestions on channel/user home pages, the trending page, and home page. check out https://i.imgur.com/XHTfpjY.png and https://www.youtube.com/channel/UC7A_dLnSAjl7uROCdoNyjzg
-    { 
+    {
         matches: null,
 
         query: "ytd-grid-video-renderer, ytd-newspaper-mini-video-renderer, ytd-newspaper-hero-video-renderer, ytd-video-renderer",
@@ -355,7 +355,7 @@ function prettyLikes(n) {
     chrome.storage.local.get("options", function(res) {
         if (res)
             options = res.options;
-        
+
         //scan all elements in page
         scanVideoElementGroups(true);
 
@@ -375,9 +375,9 @@ function prettyLikes(n) {
         }
     });
 
-    //try to disable youtube's dark theme if it is on
+    //try to disable youtube's theme if it is on and vader dark is set
     setInterval(function(){
-        if(html.hasAttribute("dark")){
+        if(html.hasAttribute("vader dark")){
             //open settings menu, click dark theme, click on toggle
             let queries = ["body", "#button[aria-label='Settings'] .ytd-topbar-menu-button-renderer, #avatar-btn", "ytd-toggle-theme-compact-link-renderer", "#submenu paper-toggle-button", "body", "body"];
             for(let i in queries){
@@ -406,7 +406,7 @@ function prettyLikes(n) {
                         setTimeout(() => document.body.removeChild($notification), 400);
                     }
                 };
-            
+
             //close and don't remind buttons
             $notification.querySelector(".ytr-close-button").addEventListener("click", close);
             $notification.querySelector(".ytr-dont-remind").addEventListener("click", function(){
@@ -442,7 +442,7 @@ function scanVideoElementGroups(settingsChanged) {
                 if($video)
                     $video.pause();
             }, 100);
-        
+
         document.body.appendChild($notification);
         html.classList.add("ytr-blur-no-scroll");
 
@@ -455,7 +455,7 @@ function scanVideoElementGroups(settingsChanged) {
             }
         });
     }
-    
+
     //apply youtube theme
     var styleUrl = options.youtubeTheme ? chrome.extension.getURL("css/themes/" + options.youtubeTheme + ".css") : "";
     if ($themeStyle.href != styleUrl)

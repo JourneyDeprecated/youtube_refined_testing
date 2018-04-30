@@ -1,3 +1,16 @@
+/* Hide theme toggle button */
+ytd-toggle-theme-compact-link-renderer {
+  pointer-events: none;
+  user-select: none;
+  font-size: 1%; }
+  ytd-toggle-theme-compact-link-renderer #secondary-icon {
+    display: none; }
+  ytd-toggle-theme-compact-link-renderer #label {
+    color: transparent; }
+  ytd-toggle-theme-compact-link-renderer #label::before {
+    content: "Use YouTube Refined to change theme";
+    color: var(--yt-compact-link-color, var(--yt-primary-color)); }
+
 .arrow.yt-horizontal-list-renderer,
 .arrow.ytd-merch-shelf-renderer {
   box-shadow: 0 0 4px var(--yt-border-color), 0 0 8px var(--yt-border-color) !important;

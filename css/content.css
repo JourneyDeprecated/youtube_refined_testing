@@ -128,19 +128,6 @@ html.ytr-ratings-preview-mode-3 .ytr-ratings-previewer[ranking='2'] > div {
 ytd-account-settings > paper-item:last-of-type {
   display: none !important; }
 
-/* Hide dark theme toggle button */
-ytd-toggle-theme-compact-link-renderer {
-  pointer-events: none;
-  user-select: none;
-  font-size: 1%; }
-  ytd-toggle-theme-compact-link-renderer #secondary-icon {
-    display: none; }
-  ytd-toggle-theme-compact-link-renderer #label {
-    color: transparent; }
-  ytd-toggle-theme-compact-link-renderer #label::before {
-    content: "Use YouTube Refined to change theme";
-    color: var(--yt-compact-link-color, var(--yt-primary-color)); }
-
 ytd-sentiment-bar-renderer {
   width: 100% !important; }
 
