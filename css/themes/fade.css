@@ -1,0 +1,225 @@
+.arrow.yt-horizontal-list-renderer,
+.arrow.ytd-merch-shelf-renderer {
+  box-shadow: 0 0 4px var(--yt-border-color), 0 0 8px var(--yt-border-color) !important;
+  background: rgba(0, 0, 0, 0.2); }
+
+html.ytr-ratings-preview-mode-2 .ytr-ratings-previewer div {
+  background: #5b7bdb !important; }
+
+ytd-app[is-watch-page] #guide-content.ytd-app {
+  background: linear-gradient(to right, #cba259 0%, #ca7c5a 100%) !important; }
+
+#masthead-container.ytd-app::after {
+  display: none !important; }
+
+#guide-inner-content.ytd-app::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2) !important; }
+
+.caption.ytd-account-settings,
+paper-item.ytd-account-settings,
+#title.ytd-metadata-row-renderer,
+#collapse-ad.ytd-video-masthead-ad-renderer,
+#label.ytd-pinned-comment-badge-renderer,
+#autoplay.ytd-compact-autoplay-renderer,
+#index.ytd-playlist-panel-video-renderer,
+yt-icon.ytd-pinned-comment-badge-renderer,
+#description-text.ytd-video-renderer,
+.cue-group-start-offset.ytd-transcript-body-renderer,
+#subtitle.ytd-compact-promoted-item-renderer,
+#expand-ad.ytd-video-masthead-ad-renderer,
+#caption.ytd-toggle-item-renderer,
+#description-text.ytd-promoted-video-renderer,
+#description-text.ytd-movie-renderer, .movie-metadata-list.ytd-movie-renderer {
+  color: rgba(255, 255, 255, 0.7) !important; }
+
+#title.ytd-channel-featured-content-renderer {
+  color: white !important; }
+
+#tabs-inner-container.ytd-c4-tabbed-header-renderer {
+  background: var(--yt-lightsource-section1-color) !important; }
+
+ytd-button-renderer.style-primary[is-paper-button] {
+  background-color: #5b7bdb !important; }
+
+.badge-style-type-red.ytd-badge-supported-renderer {
+  color: rgba(255, 255, 255, 0.9) !important; }
+
+yt-page-navigation-progress {
+  background: rgba(255, 255, 255, 0.2) !important; }
+  yt-page-navigation-progress #progress {
+    background: white !important; }
+
+ytd-modal-with-title-and-button-renderer {
+  background: var(--yt-dialog-background); }
+
+#channel-header.ytd-c4-tabbed-header-renderer {
+  background: var(--yt-lightsource-section1-color); }
+
+#guide-icon.ytd-app {
+  fill: white !important; }
+
+ytd-guide-entry-renderer #img[src*="add_channel_guide"] {
+  filter: brightness(125%) !important;
+  opacity: 0.7 !important; }
+
+ytd-playlist-sidebar-renderer {
+  --yt-sidebar-background: rgba(0, 0, 0, 0.2); }
+
+paper-input-container #labelAndInputContainer label {
+  color: rgba(255, 255, 255, 0.6) !important; }
+paper-input-container .label-is-floating input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7) !important; }
+paper-input-container .underline div {
+  background: rgba(255, 255, 255, 0.7) !important; }
+
+paper-listbox {
+  --paper-item-selected_-_background-color: rgba(255, 255, 255, 0.2) !important; }
+
+#radioContainer {
+  --paper-radio-button-unchecked-color: rgba(255, 255, 255, 0.7) !important;
+  --paper-radio-button-checked-color: rgba(255, 255, 255, 0.7) !important; }
+
+ytd-playlist-panel-video-renderer[selected] #index.ytd-playlist-panel-video-renderer {
+  color: rgba(255, 255, 255, 0.7) !important; }
+
+#checkbox.paper-checkbox {
+  --paper-checkbox-unchecked-color: rgba(255, 255, 255, 0.7) !important; }
+
+.badge-style-type-live-now.ytd-badge-supported-renderer {
+  background: transparent !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid rgba(255, 255, 255, 0.8) !important; }
+
+paper-button[subscribed].ytd-subscribe-button-renderer {
+  background-color: #eeeeee !important; }
+
+ytd-subscribe-button-renderer:not([button-style]) paper-button:not([subscribed]) {
+  background-color: red !important; }
+
+#logo-icon-container g.ytd-topbar-logo-renderer path {
+  fill: rgba(0, 0, 0, 0.2) !important; }
+#logo-icon-container g.ytd-topbar-logo-renderer polygon {
+  fill: white !important; }
+#logo-icon-container #youtube-paths path {
+  fill: white !important; }
+
+#masthead {
+  --yt-swatch-textbox-bg: linear-gradient(to right, #cba259 0%, #ca7c5a 15%, #be5559 30%, #a23e56 48%, #703453 65%, #41304f 82%, #2e2f4e 100%) !important;
+  --yt-swatch-primary-darker: linear-gradient(to right, #cba259 0%, #ca7c5a 15%, #be5559 30%, #a23e56 48%, #703453 65%, #41304f 82%, #2e2f4e 100%) !important;
+  --yt-swatch-primary: linear-gradient(to right, #cba259 0%, #ca7c5a 15%, #be5559 30%, #a23e56 48%, #703453 65%, #41304f 82%, #2e2f4e 100%) !important;
+  --yt-swatch-important-text: white !important;
+  --yt-swatch-text: white !important;
+  --yt-swatch-input-text: white !important;
+  --yt-swatch-logo-override: white !important;
+  --iron-icon-fill-color: white !important;
+  --yt-searchbox-background: rgba(255, 255, 255, 0.15) !important;
+  --yt-searchbox-text-color: white !important;
+  --ytd-searchbox-legacy-button-icon-color: white !important; }
+  #masthead ytd-searchbox #container.ytd-searchbox {
+    border: 1px solid transparent !important; }
+  #masthead ytd-searchbox[has-focus] #container.ytd-searchbox {
+    border: 1px solid white !important; }
+  #masthead ytd-button-renderer.style-brand #text {
+    color: red !important; }
+  #masthead #search-icon-legacy svg {
+    fill: white !important; }
+
+#search::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7) !important; }
+
+paper-spinner {
+  opacity: 0.6; }
+  paper-spinner .paper-spinner {
+    border-color: white !important; }
+
+.description.ytd-video-secondary-info-renderer yt-formatted-string.ytd-video-secondary-info-renderer,
+#content-text.ytd-comment-renderer {
+  --yt-endpoint-color: #5b7bdb !important; }
+
+yt-next-continuation.ytd-watch-next-secondary-results-renderer {
+  --paper-button_-_background-color: rgba(0, 0, 0, 0.2) !important;
+  --paper-button_-_color: rgba(255, 255, 255, 0.9) !important; }
+
+app-drawer #footer .ytd-guide-renderer > a {
+  color: rgba(255, 255, 255, 0.7) !important; }
+
+ytd-sentiment-bar-renderer #container {
+  background: rgba(255, 255, 255, 0.4) !important; }
+  ytd-sentiment-bar-renderer #container #like-bar {
+    background: #5b7bdb !important; }
+
+#tooltip {
+  background: linear-gradient(to right, #3f304f 0%, #322e4c 100%) !important;
+  color: white !important; }
+
+ytd-menu-service-item-renderer:hover,
+ytd-menu-navigation-item-renderer:hover {
+  background-color: var(--yt-menu-hover-background-color) !important; }
+
+#expand-ad.yt-masthead-ad-renderer,
+#title-annotation.ytd-shelf-renderer {
+  color: rgba(255, 255, 255, 0.8) !important; }
+
+#thumbnail svg.yt-icon {
+  fill: white !important; }
+
+#ad-badge.ytd-compact-promoted-video-renderer,
+.badge-style-type-ad.ytd-badge-supported-renderer {
+  background: #f88f6f !important; }
+
+html *:not([style-scope]):not(.style-scope) {
+  --yt-primary-color: white !important;
+  --yt-primary-text-color: white !important;
+  --yt-secondary-text-color: rgba(255, 255, 255, 0.8) !important;
+  --yt-hovered-text-color: rgba(255, 255, 255, 0.9) !important;
+  --yt-placeholder-text-color: rgba(255, 255, 255, 0.8) !important;
+  --yt-metadata-color: rgba(255, 255, 255, 0.7) !important;
+  --yt-featured-channel-title-text-color: rgba(255, 255, 255, 0.7) !important;
+  --yt-app-background: linear-gradient(to right, #fecb6f 0%, #fc9b70 15%, #ed6a6f 30%, #cb4e6c 48%, #8c4168 65%, #513c63 82%, #393b62 100%) !important;
+  --yt-main-app-background: linear-gradient(to right, #fecb6f 0%, #fc9b70 15%, #ed6a6f 30%, #cb4e6c 48%, #8c4168 65%, #513c63 82%, #393b62 100%) !important;
+  --yt-main-app-background-tmp: linear-gradient(to right, #fecb6f 0%, #fc9b70 15%, #ed6a6f 30%, #cb4e6c 48%, #8c4168 65%, #513c63 82%, #393b62 100%) !important;
+  --ytd-ad-badge-text-color: linear-gradient(to right, #fecb6f 0%, #fc9b70 15%, #ed6a6f 30%, #cb4e6c 48%, #8c4168 65%, #513c63 82%, #393b62 100%) !important;
+  --yt-dialog-background: linear-gradient(to right, #3f304f 0%, #322e4c 100%) !important;
+  --yt-border-color: rgba(255, 255, 255, 0.4) !important;
+  --yt-paper-button-ink-color: red !important;
+  --yt-brand-paper-button-color: red !important;
+  --yt-icon-color: rgba(255, 255, 255, 0.7) !important;
+  --yt-expand-color: rgba(255, 255, 255, 0.8) !important;
+  --yt-channel-owner: white !important;
+  --yt-endpoint-color: rgba(255, 255, 255, 0.7) !important;
+  --yt-icon-hover-color: white !important;
+  --yt-button-text-color: rgba(255, 255, 255, 0.6) !important;
+  --ytd-comment-text-color: white !important;
+  --ytd-comment-metadata-text-color: rgba(255, 255, 255, 0.7) !important;
+  --yt-endpoint-hover-color: rgba(255, 255, 255, 0.7) !important;
+  --paper-menu-background-color: linear-gradient(to right, #3f304f 0%, #322e4c 100%) !important;
+  --yt-menu-hover-background-color: rgba(255, 255, 255, 0.2) !important;
+  --yt-menu-hover-backgound-color: rgba(255, 255, 255, 0.2) !important;
+  --ytd-video-publish-date-color: white !important;
+  --yt-guide-entry-hover-background-color: rgba(255, 255, 255, 0.2) !important;
+  --yt-brand-color: white !important;
+  --yt-copyright-text: rgba(255, 255, 255, 0.7) !important;
+  --yt-guide-background: rgba(0, 0, 0, 0.2) !important;
+  --iron-icon-fill-color: rgba(255, 255, 255, 0.7) !important;
+  --yt-swatch-text: rgba(255, 255, 255, 0.7) !important;
+  --yt-icon-active-color: rgba(255, 255, 255, 0.7) !important;
+  --ytd-badge-icon-color: rgba(255, 255, 255, 0.8) !important;
+  --ytd-badge-background: rgba(0, 0, 0, 0.2) !important;
+  --ytd-simple-badge-color: rgba(255, 255, 255, 0.9) !important;
+  --yt-channel-header-background: linear-gradient(to right, #cba259 0%, #ca7c5a 15%, #be5559 30%, #a23e56 48%, #703453 65%, #41304f 82%, #2e2f4e 100%) !important;
+  --paper-dialog-background-color: linear-gradient(to right, #3f304f 0%, #322e4c 100%) !important;
+  --yt-simple-menu-header-background: rgba(0, 0, 0, 0.2) !important;
+  --yt-playlist-background-header: rgba(0, 0, 0, 0.2) !important;
+  --yt-playlist-background-item: rgba(0, 0, 0, 0.2) !important;
+  --yt-playlist-title-text: white !important;
+  --yt-playlist-message-text: white !important;
+  --ytd-collection-badge-color: white !important;
+  --yt-transcript-background: rgba(0, 0, 0, 0.2) !important;
+  --ytd-transcript-toolbar-background-color: rgba(0, 0, 0, 0.2) !important;
+  --ytd-transcript-cue-hover-background-color: rgba(0, 0, 0, 0.2) !important;
+  --ytd-transcript-toolbar-text: white !important;
+  --ytd-shopping-product-info: white !important;
+  --yt-shopping-product-info: white !important;
+  --yt-menu-focus-background-color: rgba(255, 255, 255, 0.2) !important;
+  --ytd-toggle-color: #5b7bdb !important;
+  /* display */ }

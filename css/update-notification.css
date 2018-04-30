@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Nunito:300|Nunito+Sans:700,300");
+body, html, #all {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  overflow: visible; }
+
+#body {
+  font-size: 20px;
+  font-family: "Nunito Sans", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.4em 0;
+  font-weight: 300; }
+
+.center {
+  text-align: center; }
+
+#howToGif {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+  margin: 0.7em 0;
+  padding-top: 4px; }
+
+.centerParagraph {
+  text-align: left;
+  width: fit-content;
+  max-width: 500px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0); }
+  .centerParagraph img {
+    height: 1em;
+    display: inline-block;
+    transform: translateY(0.2em); }
+
+#all {
+  padding-top: 35px;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: white; }
+
+#updates {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0; }
+  #updates li h3:before {
+    content: "●";
+    padding-right: 0.5em; }
+  #updates li.bugfixes h3:before {
+    content: "+"; }
+  #updates li {
+    margin: 0.5em 0; }
+    #updates li > * {
+      margin: 0; }
+    #updates li h5 {
+      margin-left: 3em;
+      color: #757575; }
+
+#closePage {
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  cursor: pointer; }
+  #closePage:before, #closePage:after {
+    background: #DB4343;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(45deg); }
+  #closePage:before {
+    transform: translate(-50%, -50%) rotate(-45deg); }
+
+#topTitleBar {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  width: 500px;
+  padding: 0 15px;
+  background: #DB4343;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  font-size: 30px; }
